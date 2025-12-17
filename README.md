@@ -3,7 +3,7 @@
 
 # 36-Cipher Gematria - Claude Skill
 
-A skill for Anthropic's Claude that enables gematria calculations across 36 different cipher systems directly within Claude conversations as a prebuilt skill.
+A skill for Anthropic's Claude that enables gematria calculations across 36 different cipher systems directly within Claude conversations.
 
 ## What This Skill Does
 
