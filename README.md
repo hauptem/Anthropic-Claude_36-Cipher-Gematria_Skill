@@ -1,5 +1,4 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![AI](https://img.shields.io/badge/AI-Gematria-blue?logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-Skill-orange)
 
 # 36-Cipher Gematria - Claude Skill
