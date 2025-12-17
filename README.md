@@ -48,7 +48,7 @@ This skill extends Claude's capabilities by providing instant gematria calculati
 ## Installing as a Claude Skill
 
 1. Download both files: `SKILL.md` and `36-cipher-gematria.py`
-2. Create a zip file containing both files:
+2. Create a zip file containing both files (or use the pre-zipped file):
    ```bash
    zip 36-cipher-gematria.zip SKILL.md 36-cipher-gematria.py
    ```
