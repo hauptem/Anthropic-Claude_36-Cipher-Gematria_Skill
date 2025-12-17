@@ -58,9 +58,7 @@ This skill extends Claude's capabilities by providing instant gematria calculati
 
 Simply ask Claude to calculate gematria values:
 
-```
 <img width="936" height="964" alt="Image" src="https://github.com/user-attachments/assets/296e4a22-dcf8-4865-a63a-737fe0cf66d6" />
-```
 
 Claude will automatically use this skill when you ask for gematria calculations.
 
