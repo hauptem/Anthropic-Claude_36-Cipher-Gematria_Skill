@@ -1,14 +1,12 @@
 # 36-Cipher Gematria - Claude Skill
 
-A Claude skill that enables gematria calculations across 36 different cipher systems directly within Claude conversations.
+A skill for Anthropic's Claude that enables gematria calculations across 36 different cipher systems directly within Claude conversations as a prebuilt skill.
 
 ## What This Skill Does
 
-This skill extends Claude's capabilities by providing instant gematria calculations for any phrase across 36 cipher systems. Claude can:
+This skill extends Claude's capabilities by providing instant gematria calculations for any phrase across 36 cipher systems. 
 - Calculate gematria values on demand during conversation
 - Show detailed letter-by-letter breakdowns for any cipher
-- Handle numbers by summing individual digits (e.g., 123 = 1+2+3 = 6)
-- Always calculate fresh (never uses memorized values)
 
 ## Supported Ciphers (36 Total)
 
