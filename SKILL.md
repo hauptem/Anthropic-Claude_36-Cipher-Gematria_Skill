@@ -1,5 +1,5 @@
 ---
-name: 36-Cipher-Gematria
+name: 36-cipher-gematria
 description: Calculate gematria values across 36 cipher systems
 ---
 
