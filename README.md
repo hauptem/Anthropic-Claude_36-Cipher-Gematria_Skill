@@ -11,7 +11,7 @@ This skill extends Claude's capabilities by providing instant gematria calculati
 - Calculate gematria values on demand during conversation
 - Show detailed letter-by-letter breakdowns for any cipher
 
-## Supported Ciphers (36 Total)
+## Supported Ciphers 
 
 **Standard English**
 - English Ordinal, Reverse Ordinal
