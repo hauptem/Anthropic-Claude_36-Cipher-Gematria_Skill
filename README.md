@@ -129,5 +129,3 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - This software is provided "AS IS" without warranty of any kind
 - The authors and contributors are not responsible for any damages or issues that may arise from its use
-
-MIT License - feel free to use and modify as needed.
