@@ -3,6 +3,7 @@
 36-Cipher Gematria Calculator
 Calculates gematria values across all 36 cipher systems.
 Usage: python3 36-cipher-gematria.py "phrase to calculate"
+       python3 36-cipher-gematria.py "phrase" -c "CIPHER NAME"  # specific cipher(s)
        python3 36-cipher-gematria.py "phrase" -v "CIPHER NAME"  # verbose breakdown for specific cipher
        python3 36-cipher-gematria.py "phrase" -v                # verbose breakdown for all ciphers
 """
