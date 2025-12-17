@@ -119,15 +119,31 @@ def verbose_breakdown(phrase, cipher_name):
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 36-cipher-gematria.py \"phrase to calculate\"")
-        print("       python3 36-cipher-gematria.py \"phrase\" -v \"CIPHER NAME\"")
-        print("       python3 36-cipher-gematria.py \"phrase\" -v")
+        print("       python3 36-cipher-gematria.py \"phrase\" -c \"CIPHER NAME\"  # specific cipher(s)")
+        print("       python3 36-cipher-gematria.py \"phrase\" -v \"CIPHER NAME\"  # verbose breakdown")
+        print("       python3 36-cipher-gematria.py \"phrase\" -v                 # verbose all ciphers")
         sys.exit(1)
     
-    # Check for verbose flag
+    # Check for flags
     verbose = False
     verbose_cipher = None
+    selected_ciphers = []
     args = sys.argv[1:]
     
+    # Check for cipher selection flag
+    if '-c' in args or '--cipher' in args:
+        flag_idx = args.index('-c') if '-c' in args else args.index('--cipher')
+        
+        # Collect all cipher names following the flag
+        cipher_start = flag_idx + 1
+        cipher_end = cipher_start
+        while cipher_end < len(args) and not args[cipher_end].startswith('-'):
+            selected_ciphers.append(args[cipher_end].upper())
+            cipher_end += 1
+        
+        args = args[:flag_idx] + args[cipher_end:]
+    
+    # Check for verbose flag
     if '-v' in args or '--verbose' in args:
         verbose = True
         flag_idx = args.index('-v') if '-v' in args else args.index('--verbose')
@@ -149,8 +165,17 @@ def main():
             # Show breakdown for all ciphers
             for cipher_name in CIPHERS.keys():
                 verbose_breakdown(phrase, cipher_name)
+    elif selected_ciphers:
+        # Output only selected ciphers
+        results = calculate_gematria(phrase)
+        for cipher_name in selected_ciphers:
+            if cipher_name in results:
+                print(f"{cipher_name}: {results[cipher_name]}")
+            else:
+                print(f"Unknown cipher: {cipher_name}")
+                print(f"Available ciphers: {', '.join(CIPHERS.keys())}")
     else:
-        # Standard output
+        # Standard output - all ciphers
         results = calculate_gematria(phrase)
         for cipher, value in results.items():
             print(f"{cipher}: {value}")

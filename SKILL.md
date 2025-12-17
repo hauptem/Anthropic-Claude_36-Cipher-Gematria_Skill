@@ -9,6 +9,10 @@ Run the pre-built script:
 # Standard output (all ciphers)
 python3 /mnt/skills/user/36-cipher-gematria/36-cipher-gematria.py "phrase to calculate"
 
+# Specific cipher(s) only
+python3 /mnt/skills/user/36-cipher-gematria/36-cipher-gematria.py "phrase" -c "JEWISH"
+python3 /mnt/skills/user/36-cipher-gematria/36-cipher-gematria.py "phrase" -c "JEWISH" "ENGLISH ORDINAL"
+
 # Verbose breakdown for specific cipher
 python3 /mnt/skills/user/36-cipher-gematria/36-cipher-gematria.py "phrase" -v "CIPHER NAME"
 
