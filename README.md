@@ -122,4 +122,20 @@ TOTAL: 158
 
 ## License
 
+MIT License - see [LICENSE](LICENSE) file for details.
+
+---
+
+## Disclaimer
+
+- This solution is **NOT** officially endorsed, supported, or maintained by Anthropic.
+- Anthropic retains all rights to their trademarks, including but not limited to "Anthropic", "Claude", and related marks
+- This is an independent, community-developed solution that utilizes Anthropic products but is not affiliated with Anthropic.
+- For official Claude support and solutions, please contact Anthropic directly
+
+**Technical Disclaimer**
+
+- This software is provided "AS IS" without warranty of any kind
+- The authors and contributors are not responsible for any damages or issues that may arise from its use
+
 MIT License - feel free to use and modify as needed.
