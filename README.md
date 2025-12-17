@@ -75,7 +75,7 @@ Don't use Claude? You can use the Python script directly on your command line.
 
 ```bash
 # Download the script
-wget https://raw.githubusercontent.com/yourusername/36-cipher-gematria/main/36-cipher-gematria.py
+wget https://raw.githubusercontent.com/hauptem/Anthropic-Claude_36-Cipher-Gematria_Skill/main/36-cipher-gematria.py
 
 # Make it executable (optional)
 chmod +x 36-cipher-gematria.py
