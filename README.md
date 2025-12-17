@@ -89,6 +89,10 @@ chmod +x 36-cipher-gematria.py
 # Calculate all ciphers
 python3 36-cipher-gematria.py "your phrase here"
 
+# Calculate specific cipher(s) only 
+python3 36-cipher-gematria.py "your phrase here" -c "PERFECTSQUARE"
+python3 36-cipher-gematria.py "your phrase here" -c "JEWISH" "ENGLISH ORDINAL"
+
 # Verbose breakdown for specific cipher
 python3 36-cipher-gematria.py "your phrase here" -v "english ordinal"
 
