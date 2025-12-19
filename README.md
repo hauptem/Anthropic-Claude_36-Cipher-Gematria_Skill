@@ -59,55 +59,6 @@ Simply ask Claude to calculate gematria values:
 
 ---
 
-## Standalone Python Calculator
-
-Don't use Claude? You can use the Python script directly on your command line.
-
-### Installation
-
-```bash
-# Download the script
-wget https://raw.githubusercontent.com/hauptem/Anthropic-Claude_36-Cipher-Gematria_Skill/main/36-cipher-gematria.py
-
-# Make it executable (optional)
-chmod +x 36-cipher-gematria.py
-```
-
-**Requirements:** Python 3.x (no additional packages needed)
-
-### Usage
-
-```bash
-# Calculate all ciphers
-python3 36-cipher-gematria.py "your phrase here"
-
-# Calculate specific cipher(s) only 
-python3 36-cipher-gematria.py "your phrase here" -c "PERFECTSQUARE"
-python3 36-cipher-gematria.py "your phrase here" -c "JEWISH" "ENGLISH ORDINAL"
-
-# Verbose breakdown for specific cipher
-python3 36-cipher-gematria.py "your phrase here" -v "english ordinal"
-
-# Verbose breakdown for all ciphers
-python3 36-cipher-gematria.py "your phrase here" -v
-```
-
-### Example Output
-
-```bash
-$ python3 36-cipher-gematria.py "This is gematria!" -v "english ordinal"
-
-=== ENGLISH ORDINAL BREAKDOWN ===
-
-This: T=20 + H=8 + I=9 + S=19 = 56
-is: I=9 + S=19 = 28
-gematria!: G=7 + E=5 + M=13 + A=1 + T=20 + R=18 + I=9 + A=1 = 74
-
-========================================
-TOTAL: 158
-========================================
-```
-
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
